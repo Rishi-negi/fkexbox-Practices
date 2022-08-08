@@ -1,0 +1,26 @@
+@keyframes myanimation{
+    0%  {border-radius: 0%;  background-color:  blue;}
+    10%  {border-radius: 10%;  background-color: cyan;}
+    20% {border-radius: 20%;  background-color: plum;}
+    30%  {border-radius: 30%;  background-color:  red;}
+    40% {border-radius: 40%;  background-color: rgb(234, 238, 22);}
+    50%  {border-radius: 50%;  background-color: rgb(71, 243, 71);}
+    60% {border-radius: 40%;  background-color: orange;}
+    70%  {border-radius: 30%;  background-color:  rgb(219, 167, 25);}
+    80% {border-radius: 20%;  background-color: red;}
+    90%  {border-radius: 10%;  background-color:  rgb(7, 7, 110);}
+    100%{border-radius: 0%; background-color: rgb(104, 238, 126);}
+}
+
+body{
+    background-color: black;
+}
+#animation{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin: 200px;
+    animation-name: myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,23 @@
+#div1{
+   background-color: rgb(23, 138, 231);
+   width: 70%;
+   float: left;
+   font-size: 40px;
+}
+#div2{
+    background-color: rgb(6, 238, 6);
+     width: 30%;
+     float: left;
+     font-size: 40px;
+}
+
+@media screen and (max-width : 768px){
+    #div1{
+        width: 50%; 
+        background-color: lightskyblue;
+    }
+    #div2{
+        width: 50%;
+        background-color: cyan;
+    }
+}

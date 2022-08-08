@@ -1,0 +1,14 @@
+#div1{
+    width: 40px;
+    height: 100px;
+    background-color: aqua;
+    overflow-wrap: break-word;
+    border: 2px solid black;
+}
+#div2{
+    width: 40px;
+    height: 100px;
+    background-color: aqua;
+    overflow-wrap: normal;
+    border: 2px solid black;
+}

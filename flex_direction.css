@@ -1,0 +1,76 @@
+/* parent container which will make its children flex */
+#header{
+    display: flex;
+    flex-direction: column;
+}
+/* flex row-reverse direction */
+#container1{
+  height: 300px;
+  width: 500px;
+  background-color: rgb(213, 213, 223);
+  display: flex;
+  margin: 10px;
+  flex-direction: row-reverse;
+}
+#container1 div{
+    width:100px ;
+    text-align: center;
+    font-size: 40px;
+}
+/* flex row direction  */
+#container2{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(213, 213, 223);
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+  }
+#container2 div{
+      width:100px ;
+      text-align: center;
+      font-size: 40px;
+}
+/* flex col direction */
+#container3{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(213, 213, 223);
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+  }
+#container3 div{
+      width:100px ;
+      text-align: center;
+      font-size: 40px;
+}
+/* flex col-reverse direction */
+#container4{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(213, 213, 223);
+    display: flex;
+    margin: 10px;
+    flex-direction: column-reverse;
+  }
+#container4 div{
+      width:100px ;
+      text-align: center;
+      font-size: 40px;
+}
+.div1{
+  background-color: red;
+}
+.div2{
+    background-color: orange;
+}
+.div3{
+    background-color: yellow;
+}
+.div4{
+    background-color: green;
+}
+.div5{
+    background-color: blue;
+}

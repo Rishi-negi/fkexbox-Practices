@@ -1,0 +1,31 @@
+#div1{
+   width: 400px;
+   height: 200px;
+   margin:50px 100px;
+   text-align: center;
+   background-image: linear-gradient(to bottom left, lightblue ,cyan , blue);
+   display: inline-block;
+}
+#div2{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    background: linear-gradient(120deg,yellow ,green 30% , blue);
+    display: inline-block;
+}
+#div3{
+    width: 400px;
+    height: 200px;
+    margin:50px 100px;
+    text-align: center;
+    display: inline-block;
+    background-image: radial-gradient(violet, indigo, blue, green, yellow, orange, red);
+}
+#div4{
+    width: 400px;
+    height: 200px;
+    
+    display: inline-block;
+    text-align: center;
+    background-image: radial-gradient(circle,violet, indigo, blue, green, yellow, orange, red);
+}
